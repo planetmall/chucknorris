@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Chuck Norris Jokes</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Chuck Norris Jokes</h1>
+      <img
+        id="chuckImg"
+        src="./kisspng-chuck-norris-karate-kommandos-clip-art-chuck-norris-5abd8dc8e90887.5466247615223720409545.png"
+        alt="Chuck Norris"
+      />
+      <form id='jokeForm'>
+          <label for='firstName'>First Name</label>
+          <input type='text' id='firstName' name='firstName' placeholder="Chuck"></input>
+          <label for='lastName'>Last Name</label>
+          <input type='text' id='lastName' name='lastName' placeholder="Norris"></input>
+
+          <button type='submit' id="jokeBtn">Get Joke!</button>
+      </form>
+      <p id="jokeText"></p>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
